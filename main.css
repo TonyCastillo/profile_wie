@@ -1,0 +1,72 @@
+.profile_view_tab {
+  border: solid 1px red;
+  padding: 50px;
+}
+
+@media only screen and (min-width: 940px) {
+  .profile_view_tab .nav.nav-pills {
+    width: 240px !important;
+    border: solid 1px gray;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .profile_view_tab .nav.nav-pills .nav-link {
+    border-radius: 0;
+    color: #333;
+    font-weight: bold;
+    border-bottom: solid 1px gray;
+  }
+  .profile_view_tab .nav.nav-pills .nav-link:last-child {
+    border: none;
+  }
+  .profile_view_tab .nav.nav-pills .nav-link.active {
+    background-color: #dadada;
+  }
+  .profile_view_tab .nav.nav-pills .nav-link:hover {
+    background-color: #efeeee;
+  }
+}
+
+.box-card-tc {
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.box-card-tc:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.box-card-tc p {
+  margin: 0;
+  font-size: .9rem;
+}
+
+.box-card-tc p.title {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #545454;
+  line-height: 15px;
+}
+
+.box-card-tc .desc p span {
+  padding: 0 3px;
+}
+
+.box-card-tc .accion {
+  width: 100%;
+  margin: 10px 0 0;
+}
+
+.box-card-tc .accion .delete {
+  background-color: #ea3a3a;
+  color: #fff;
+  width: 100%;
+  font-size: .8rem;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=main.css.map */
